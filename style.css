@@ -385,17 +385,22 @@ nav .fa-solid{
 
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(pictures/c6.png);
+        background-image: none;
 
     }
 
     .header-text{
         margin-top: 30%;
-        font-size: 10px;
+        font-size: 30px;
+    }
+
+    .about-1 img{
+        width: 250px;
+        height: 400px;
     }
 
     .header-text h1{
-        font-size: 20px;
+        font-size: 50px;
     }
 
     nav .fa-solid{
