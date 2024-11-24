@@ -1,0 +1,257 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODE RED</title>
+    <link rel="icon" href="pictures/icon2.jpg" type="image/jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.7.1-web/css/all.min.css">
+
+    <script src="https://kit.fontawesome.com/7891c4554b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="contaner">
+            <nav>
+                <div class="logo">CODE <span>RED</span> </div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Vigneshwar</span> <br> From India</h1>
+            </div>
+        </div>
+        
+    </div>
+
+    
+<!---------------------------about----------------->
+   
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-1">
+                    <img src="pictures/p.jpg" class="me">
+                </div>
+                <div class="about-2">
+                    <h1 class="subtitle"> About Me</h1>
+                    <p>
+                        I’m a passionate web designer with 2 years of experience in creating visually compelling and user-friendly websites. My expertise lies in blending creativity with functionality to deliver designs that not only look great but also provide seamless user experiences.
+
+From responsive layouts to intuitive navigation, I specialize in turning ideas into digital realities. Whether you need a sleek personal portfolio, a dynamic e-commerce platform, or a professional business website, I can bring your vision to life with modern tools and techniques.
+
+When I'm not designing, you'll find me exploring the latest design trends, experimenting with new technologies, or enjoying a good cup of coffee while brainstorming fresh ideas. Let’s collaborate to make your online presence unforgettable!
+<br>
+<br>
+Call to Action:
+"Ready to bring your project to life? Get in touch – I’d love to hear from you!"
+                    </p>
+
+                    <div class="tabtitle">
+                        <p class="tablinks active" onclick="opentab('skills')">Skills</p>
+                        <p class="tablinks" onclick="opentab('hobbies')">Hobbies</p>
+                        <p class="tablinks" onclick="opentab('location')">Location</p>
+                    </div>
+                    <div class="tabcontent active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontent" id="hobbies">
+                        <ul>
+                            <li><span>UI/UX Design</span><br></li>
+                            <li>Typography<br></li>
+                            <li><span>Coding</span><br></li>
+                            <li>Photography<br></li>
+                            <li><span>Editing</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tabcontent" id="location">
+                        <ul>
+                            <li><span>CITY</span><br>CHENNAI</li>
+                            <li><span>COUNTRY</span><br>INDIA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------sevices------------------->
+
+<div id="services">
+
+    <div class="container">
+        <h1 class="subtitle"> My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>WEB Design</h2>
+                <p>
+                    A good web design ensures a seamless interaction between users and digital content across various devices.
+                </p>
+                
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>APP Design</h2>
+                <p>
+                    A well-designed app enhances usability and meets user needs seamlessly across different devices.
+                </p>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>
+                    UI (User Interface) focuses on the visual and interactive elements, while UX (User Experience) ensures the product is functional, intuitive, and enjoyable.
+                </p>
+                
+            </div>
+        </div>
+    </div> 
+    
+</div>
+
+<!---------------------------portfolio----------------->
+   
+   <div id="portfolio">
+    <div class="container">
+         <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="pictures/a.png" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="pictures/d.png" >
+                <div class="layer">
+                    <h3>Online Shopping Web</h3>
+                    <p>The web lets you to shop online safe and secure.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="pictures/f.jpg" >
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Let your mind relax by listening to some quality music.</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+   </div>
+
+   <!-------------------------------contact---------------------------------->
+
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>Vigneshwarvigneshwar@gmail.com</p>
+                <p><i class="fa-brands fa-whatsapp"></i>7010658903</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/_vigneshwar105/profilecard/?igsh=dGprOXpia2c4bXNm"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <a href="pictures/resume.pdf" download class="btn btn2">Download Resume</a>
+        
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name">
+                    <input type="email" name="email" placeholder="Your Email">
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <footer style="text-align: center; padding: 10px; background-color: #262626;">
+  <p>&copy; 2024 CODE RED. All Rights Reserved.</p>
+</footer>
+    </div>
+   </div>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <script>
+        var tablink=document.getElementsByClassName("tablinks");
+        var tabcont=document.getElementsByClassName("tabcontent");
+        function opentab(tabname){
+            for(tabl of tablink){
+                tabl.classList.remove("active");
+            }
+            for(tabc of tabcont){
+                tabc.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyMLdzmakDRIt6YkyPMESTo-2nq8VHqaLqjx0n0hTR2XOTX4oV8viqT0weQg7nN4mYReQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
